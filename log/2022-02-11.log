@@ -1,0 +1,65 @@
+2022-02-11 16:17:10.210[info] (user.reg.params) {"name":"정택구","password":"1234","userid":"ctg620","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":"1"}
+2022-02-11 16:17:10.211[error] (userService.reg) TypeError: Cannot read property 'create' of undefined
+2022-02-11 16:21:23.777[info] app start
+2022-02-11 16:21:23.850[info] DB connection success
+2022-02-11 16:21:23.865[info] Sequelize sync success
+2022-02-11 16:21:30.852[info] (user.reg.params) {"name":"정택구","password":"1234","userid":"ctg620","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":"1"}
+2022-02-11 16:21:30.855[error] (userService.reg) SequelizeValidationError: notNull Violation: User.user_id cannot be null
+2022-02-11 16:22:05.333[info] app start
+2022-02-11 16:22:05.411[info] DB connection success
+2022-02-11 16:22:05.426[info] Sequelize sync success
+2022-02-11 16:22:09.037[info] (user.reg.params) {"name":"정택구","password":"1234","userid":"ctg620","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":"1"}
+2022-02-11 16:22:09.051[error] (userService.reg) SequelizeDatabaseError: column "userid" of relation "users" does not exist
+2022-02-11 16:22:24.076[info] app start
+2022-02-11 16:22:24.155[info] DB connection success
+2022-02-11 16:22:24.169[info] Sequelize sync success
+2022-02-11 16:23:49.383[info] (user.reg.params) {"name":"정택구","password":"1234","userid":"ctg620","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":"1"}
+2022-02-11 16:23:49.398[error] (userService.reg) SequelizeDatabaseError: column "userid" of relation "users" does not exist
+2022-02-11 16:26:12.930[info] app start
+2022-02-11 16:26:13.008[info] DB connection success
+2022-02-11 16:26:13.050[info] Sequelize sync success
+2022-02-11 16:26:34.897[info] (user.reg.params) {"name":"정택구","password":"1234","userid":"ctg620","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":"1"}
+2022-02-11 16:26:34.922[debug] (userService.reg) {"id":1,"name":"정택구","userid":"ctg620","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":1,"updatedAt":"2022-02-11T07:26:34.899Z","createdAt":"2022-02-11T07:26:34.899Z","updatedPwDate":null,"deletedAt":null}
+2022-02-11 16:26:34.922[info] (user.reg.result) {"id":1,"name":"정택구","userid":"ctg620","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":1,"updatedAt":"2022-02-11T07:26:34.899Z","createdAt":"2022-02-11T07:26:34.899Z","updatedPwDate":null,"deletedAt":null}
+2022-02-11 17:13:19.804[info] app start
+2022-02-11 17:13:19.878[info] DB connection success
+2022-02-11 17:13:19.896[info] Sequelize sync success
+2022-02-11 17:15:36.777[info] app start
+2022-02-11 17:15:36.842[info] DB connection success
+2022-02-11 17:15:36.855[info] Sequelize sync success
+2022-02-11 17:15:51.157[info] app start
+2022-02-11 17:15:51.233[info] DB connection success
+2022-02-11 17:15:51.253[info] Sequelize sync success
+2022-02-11 17:16:25.071[info] app start
+2022-02-11 17:16:25.151[info] DB connection success
+2022-02-11 17:16:25.165[info] Sequelize sync success
+2022-02-11 17:16:34.288[info] (user.list.params) {"name":"정택"}
+2022-02-11 17:16:34.300[debug] (userService.list) {"count":0,"rows":[]}
+2022-02-11 17:16:34.301[info] (user.list.result) {"count":0,"rows":[]}
+2022-02-11 17:16:48.178[info] (user.list.params) {"name":"정택"}
+2022-02-11 17:16:48.188[debug] (userService.list) {"count":0,"rows":[]}
+2022-02-11 17:16:48.190[info] (user.list.result) {"count":0,"rows":[]}
+2022-02-11 17:16:51.661[info] (user.list.params) {"name":"정택구"}
+2022-02-11 17:16:51.670[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"정택구","userid":"ctg620","password":"1234","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":1,"updatedPwDate":null,"createdAt":"2022-02-11T07:26:34.899Z","updatedAt":"2022-02-11T07:26:34.899Z","deletedAt":null,"department_id":1}]}
+2022-02-11 17:16:51.671[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"정택구","userid":"ctg620","password":"1234","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":1,"updatedPwDate":null,"createdAt":"2022-02-11T07:26:34.899Z","updatedAt":"2022-02-11T07:26:34.899Z","deletedAt":null,"department_id":1}]}
+2022-02-11 17:17:23.307[info] app start
+2022-02-11 17:17:23.397[info] DB connection success
+2022-02-11 17:17:23.416[info] Sequelize sync success
+2022-02-11 17:19:05.355[info] app start
+2022-02-11 17:19:05.434[info] DB connection success
+2022-02-11 17:19:05.457[info] Sequelize sync success
+2022-02-11 17:19:14.279[info] (user.list.params) {"name":"정택"}
+2022-02-11 17:19:14.293[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"정택구","userid":"ctg620","password":"1234","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":1,"updatedPwDate":null,"createdAt":"2022-02-11T07:26:34.899Z","updatedAt":"2022-02-11T07:26:34.899Z","deletedAt":null,"department_id":1}]}
+2022-02-11 17:19:14.294[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"정택구","userid":"ctg620","password":"1234","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":1,"updatedPwDate":null,"createdAt":"2022-02-11T07:26:34.899Z","updatedAt":"2022-02-11T07:26:34.899Z","deletedAt":null,"department_id":1}]}
+2022-02-11 17:20:29.417[info] app start
+2022-02-11 17:20:29.482[info] DB connection success
+2022-02-11 17:20:29.496[info] Sequelize sync success
+2022-02-11 17:20:51.452[info] (user.list.params) {}
+2022-02-11 17:20:51.469[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"정택구","userid":"ctg620","password":"1234","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":1,"updatedPwDate":null,"createdAt":"2022-02-11T07:26:34.899Z","updatedAt":"2022-02-11T07:26:34.899Z","deletedAt":null,"department_id":1}]}
+2022-02-11 17:20:51.470[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"정택구","userid":"ctg620","password":"1234","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":1,"updatedPwDate":null,"createdAt":"2022-02-11T07:26:34.899Z","updatedAt":"2022-02-11T07:26:34.899Z","deletedAt":null,"department_id":1}]}
+2022-02-11 17:21:07.185[info] (user.list.params) {"name":"dd"}
+2022-02-11 17:21:07.194[debug] (userService.list) {"count":0,"rows":[]}
+2022-02-11 17:21:07.195[info] (user.list.result) {"count":0,"rows":[]}
+2022-02-11 17:21:14.909[info] (user.list.params) {"name":""}
+2022-02-11 17:21:14.913[debug] (userService.list) {"count":1,"rows":[{"id":1,"name":"정택구","userid":"ctg620","password":"1234","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":1,"updatedPwDate":null,"createdAt":"2022-02-11T07:26:34.899Z","updatedAt":"2022-02-11T07:26:34.899Z","deletedAt":null,"department_id":1}]}
+2022-02-11 17:21:14.914[info] (user.list.result) {"count":1,"rows":[{"id":1,"name":"정택구","userid":"ctg620","password":"1234","role":"팀원","email":"ctg620@naver.com","phone":"01012345678","departmentId":1,"updatedPwDate":null,"createdAt":"2022-02-11T07:26:34.899Z","updatedAt":"2022-02-11T07:26:34.899Z","deletedAt":null,"department_id":1}]}
