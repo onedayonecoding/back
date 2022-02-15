@@ -26,7 +26,7 @@ const dao = {
       setQuery.where = {
         ...setQuery.where,
         userid : { [Op.like]: `%${params.userid}%`}
-      }
+      };
     }
 
     setQuery.order = [['id','DESC']];
